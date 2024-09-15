@@ -2,7 +2,7 @@ import React from 'react';
 
 const FeatureSection = () => {
   return (
-    <section className="bg-white py-16">
+    <section className="bg-white w-screen py-16">
       <div className="container mx-auto text-center">
         {/* Header Section */}
         <h3 className="text-lg font-semibold text-[#0A92CD] mb-4">Why Choose Us</h3>

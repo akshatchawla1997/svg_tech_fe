@@ -2,7 +2,7 @@ import Courses from './Courses.json';
 
 export default function CourseList() {
   return (
-    <div className="text-white p-8" id="CourseList">
+    <div className="w-screen text-white p-8" id="CourseList">
       {/* Course Demos Section */}
       <h2 className="text-4xl font-semibold mb-4 text-center">
         <span className="text-[#0A92CD]">Upcoming</span> 

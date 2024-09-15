@@ -5,7 +5,7 @@ import recordings from "./recordings.json";
 
 const RecordedCourse = () => {
   return (
-    <div className=" bg-gradient-to-b from-white to-[#E7F5FA]  w-full  p-20">
+    <div className=" bg-gradient-to-b from-white to-[#E7F5FA]  w-screen  p-20">
       {/* Search Bar */}
       <h1 className="text-4xl font-semibold text-[#3393D0] text-left py-10">
         <span className="text-black">Search Result for </span> “salesforce”

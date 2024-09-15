@@ -3,7 +3,7 @@ import { BsCart4 } from "react-icons/bs";
 
 export default function SearchPage() {
   return (
-    <div className="bg-[#E9F7FC] min-h-screen w-full p-20" id="searchPage">
+    <div className="bg-[#E9F7FC] min-h-screen w-screen p-20" id="searchPage">
       {/* Search Section */}
       <div className="text-center mb-10 w-full ">
         <h1 className="text-4xl font-semibold text-[#3393D0] text-left pb-10">

@@ -1,0 +1,21 @@
+[
+    {
+        "title": "Salesforce Commerce Cloud (B2C) Interview Q & A",
+        "description": "Which product types are there in SFCC? Standard, base(master), variation group, variation product, product set, product bundle.",
+        "additionalDescription": "What is the difference between a product set and product bundle? Product set elements can be purchased separately, while product bundle elements are not.",
+        "author": "svtechsoft",
+        "date": "April 9, 2023",
+        "imageUrl": "https://via.placeholder.com/150",
+        "readMoreUrl": "#"
+      },
+      {
+        "title": "Salesforce Commerce Cloud (B2C) Interview Q & A",
+        "description": "Which product types are there in SFCC? Standard, base(master), variation group, variation product, product set, product bundle.",
+        "additionalDescription": "What is the difference between a product set and product bundle? Product set elements can be purchased separately, while product bundle elements are not.",
+        "author": "svtechsoft",
+        "date": "April 9, 2023",
+        "imageUrl": "https://via.placeholder.com/150",
+        "readMoreUrl": "#"
+      }
+            
+]

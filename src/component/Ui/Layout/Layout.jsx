@@ -1,9 +1,10 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import { Header } from "../Header/Header";
 import TopHeader from "../Top-header/TopHeader";
+import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-export function Layout() {
+
+const Layout = () => {
   return (
     <div className="container">
       <header className="w-screen">
@@ -16,8 +17,10 @@ export function Layout() {
         </div>
       </main>
       <footer>
-      <Footer />
+        <Footer />
       </footer>
     </div>
   );
-}
+};
+
+export default Layout;
