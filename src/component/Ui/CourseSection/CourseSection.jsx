@@ -4,6 +4,7 @@ import styles from './CourseSection.module.css';
 
 export default function CourseSection() {
   return (
+    <div className="w-screen">
     <section className={styles.container}>
       <div className={styles.imageContainer}>
         <img
@@ -40,5 +41,6 @@ export default function CourseSection() {
         <button className={styles.exploreButton}>Explore Our Courses ➔</button>
       </div>
     </section>
+    </div>
   );
 }

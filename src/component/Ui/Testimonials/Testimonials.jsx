@@ -26,7 +26,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="bg-blue-50 py-16">
+    <section className="bg-blue-50 w-screen py-16">
       <div className="container mx-auto">
         {/* Header Section */}
         <h3 className="text-lg font-semibold text-[#0A92CD] mb-4 text-center">Testimonial</h3>

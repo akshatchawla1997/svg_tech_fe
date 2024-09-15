@@ -23,7 +23,7 @@ export default function LowerBanner() {
   ];
 
   return (
-    <div className="lower-banner">
+    <div className="w-screen lower-banner">
       <div className="lower-banner-content">
         {bannerItems.map((item, index) => (
           <div key={index} className="banner-item">

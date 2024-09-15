@@ -10,7 +10,7 @@ import { FaPinterest } from "react-icons/fa6";//<FaPinterest />
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-50 pt-10 ">
+    <footer className="bg-blue-50 pt-10 w-screen">
       <div className="container mx-auto flex flex-wrap justify-between text-gray-800">
         {/* Company Info Section */}
         <div className="w-full md:w-1/4 mb-8">

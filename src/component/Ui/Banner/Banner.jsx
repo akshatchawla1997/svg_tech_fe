@@ -4,8 +4,8 @@ import banner_img from "../../../../public/Images/banner.png";
 const Banner = () => {
   return (
     <>
-      <div className="flex bg-lightBlueCustom w-full h-auto justify-between py-0.5 items-center px-4 md:px-16">
-        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
+      <div className="flex bg-lightBlueCustom w-screen h-auto justify-between py-0.5 items-center px-4 md:px-16">
+        <div className="mx-auto flex flex-col md:flex-row items-center justify-between">
           {/* Text Section */}
           <div className="md:w-1/2 text-center md:text-left px-6">
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">

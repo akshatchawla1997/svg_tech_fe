@@ -1,21 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import HomePage from "../src/component/Ui/HomePage/HomePage"
-import TopHeader from "../src/component/Ui/Top-header/TopHeader"
-import Footer from "../src/component/Ui/Footer/Footer"
-import Header from './component/Ui/Header/Header'
-function App() {
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import Layout from './component/Ui/Layout/Layout'; // Assuming Layout is a default export
+import AboutUs from './component/Ui/about/AboutUs';
+import HomePage from './component/Ui/HomePage/HomePage';
+import BlogSection from './component/Ui/BlogSection/BlogSection';
 
+function App() {
   return (
-    <>
-    <TopHeader/>
-    <Header/>
-      <HomePage/>
-      <Footer/>
-    </>
-  )
+    <Routes>
+      <Route path='/' element={<Layout />}>
+        <Route index element={<HomePage />} />
+        <Route path='about-us' element={<AboutUs />} />
+        <Route path='blogs' element={<BlogSection/>}/>
+        
+      </Route>
+    </Routes>
+  );
 }
 
-export default App
+export default App;
