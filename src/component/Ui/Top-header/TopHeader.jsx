@@ -6,6 +6,7 @@ import { RiInstagramFill } from "react-icons/ri";//<RiInstagramFill />
 import { IoLogoWhatsapp } from "react-icons/io";//<IoLogoWhatsapp />
 import { AiFillYoutube } from "react-icons/ai";//<AiFillYoutube />
 import { FaPinterest } from "react-icons/fa6";//<FaPinterest />
+import { NavLink } from 'react-router-dom';
 
 const TopHeader = () => {
   return (
@@ -31,8 +32,8 @@ const TopHeader = () => {
           <i className="fab fa-pinterest"><FaPinterest /></i>
         </div>
         <div className="auth-buttons">
-          <button className="login-btn">Login</button>
-          <button className="register-btn">Register</button>
+          <NavLink to="/login"><button className="login-btn">Login</button></NavLink>
+          <NavLink to="/register"><button className="register-btn">Register</button></NavLink>
         </div>
       </div>
     </div>

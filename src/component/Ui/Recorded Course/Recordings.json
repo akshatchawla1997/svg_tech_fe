@@ -3,25 +3,29 @@
       "image": "/public/images/rec1.png",
       "title": "Salesforce nCino Videos",
       "lessons": 0,
-      "students": 5
+      "students": 5,
+      "rating":4.5
     },
     {
       "image": "/public/images/rec2.png",
       "title": "Salesforce nCino Videos",
       "lessons": 0,
-      "students": 5
+      "students": 5,
+      "rating":4
     },
     {
       "image": "/public/images/rec3.png",
       "title": "Salesforce nCino Videos",
       "lessons": 0,
-      "students": 5
+      "students": 5,
+      "rating":3
     },
     {
       "image": "/public/images/rec4.png",
       "title": "Salesforce nCino Videos",
       "lessons": 0,
-      "students": 5
+      "students": 5,
+      "rating":1
     }
   ]
   

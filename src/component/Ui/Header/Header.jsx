@@ -1,6 +1,7 @@
 "use client"
 import React from "react";
 import "../Header/Header.css";
+import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <header className="navbar">
@@ -9,16 +10,16 @@ const Header = () => {
       </div>
       <nav className="navbar-links">
         <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>
+          <NavLink to='/'>Home</NavLink>
+          <NavLink to='/about-us'>About Us</NavLink>
+          <NavLink to=''>
             Online Training <span>&#x25BC;</span>
-          </li>
-          <li>Recorded Videos</li>
-          <li>Job Support</li>
-          <li>Blog</li>
-          <li>Work with Us</li>
-          <li>Contact Us</li>
+          </NavLink>
+          <NavLink to='/recorded-videos'>Recorded Videos</NavLink>
+          <NavLink to='/job-support'>Job Support</NavLink>
+          <NavLink to='/blogs'>Blog</NavLink>
+          <NavLink to='/work-with-us'>Work with Us</NavLink>
+          <NavLink to='/contact-us'>Contact Us</NavLink>
         </ul>
       </nav>
     </header>
