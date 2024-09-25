@@ -1,6 +1,6 @@
 import React from "react";
 import banner_img from "../../../../public/Images/banner.png";
-
+import Typewriter from 'typewriter-effect';
 const Banner = () => {
   return (
     <>
@@ -9,7 +9,14 @@ const Banner = () => {
           {/* Text Section */}
           <div className="md:w-1/2 text-center md:text-left px-6">
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-              <span className="text-blue-700">Salesforce</span> <br />
+              <span className="text-blue-700"><Typewriter
+          options={{
+            strings: ['Salesforce'],
+            autoStart: true,
+            loop: true, // Set to `false` if you want it to type only once
+            delay: 105,  // Speed of typing
+          }}
+        /></span>
               Online Training & <br /> Job Support Platform
             </h1>
             <p className="text-gray-600 mt-4 text-lg">

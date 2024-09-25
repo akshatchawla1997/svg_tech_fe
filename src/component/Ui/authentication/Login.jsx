@@ -1,13 +1,14 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const LoginComponent = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+    <div className="min-h-screen w-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full">
         {/* Logo */}
         <div className="text-center mb-6">
           <img
-            src="https://via.placeholder.com/150" // Replace with your logo URL
+            src="/public/logo.png" // Replace with your logo URL
             alt="SV Tech Soft"
             className="mx-auto"
           />
@@ -54,9 +55,9 @@ const LoginComponent = () => {
         </div>
 
         {/* Sign In Button */}
-        <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring">
+        <NavLink to='/'><button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring">
           Sign In
-        </button>
+        </button></NavLink>
 
         {/* Register Link */}
         <div className="text-center mt-4">
