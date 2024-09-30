@@ -1,6 +1,6 @@
 import React from "react";
 import RecordingCard from "./RecordingCard"; // Import the RecordingCard component
-import recordings from "./recordings.json"; 
+import recordings from './recordings.json';
 // import Link from 'next/link';
 
 const RecordedCourse = () => {
