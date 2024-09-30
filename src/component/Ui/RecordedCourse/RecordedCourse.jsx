@@ -1,8 +1,37 @@
 import React from "react";
 import RecordingCard from "./RecordingCard"; // Import the RecordingCard component
-import recordings from "./recordings.json"; 
 // import Link from 'next/link';
 
+const recordings = [
+  {
+    "image": "/public/images/rec1.png",
+    "title": "Salesforce nCino Videos",
+    "lessons": 0,
+    "students": 5,
+    "rating":4.5
+  },
+  {
+    "image": "/public/images/rec2.png",
+    "title": "Salesforce nCino Videos",
+    "lessons": 0,
+    "students": 5,
+    "rating":4
+  },
+  {
+    "image": "/public/images/rec3.png",
+    "title": "Salesforce nCino Videos",
+    "lessons": 0,
+    "students": 5,
+    "rating":3
+  },
+  {
+    "image": "/public/images/rec4.png",
+    "title": "Salesforce nCino Videos",
+    "lessons": 0,
+    "students": 5,
+    "rating":1
+  }
+]
 const RecordedCourse = () => {
   return (
     <div className=" bg-gradient-to-b from-white to-[#E7F5FA]  w-screen  p-20">
