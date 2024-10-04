@@ -8,6 +8,7 @@ import LoginComponent from './component/Ui/authentication/Login';
 import RegisterComponent from './component/Ui/authentication/Register';
 import ContactUs from './component/Ui/contact-us/ContactUs';
 import WorkWithUsForm from './component/Ui/workwithus/WorkWithUs';
+import RecordedVideo from './component/Ui/RecordedVideo/RecordedVideo';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <Route path='register' element={<RegisterComponent/>}/>
         <Route path='contact-us' element={<ContactUs/>}/>
         <Route path='work-with-us' element={<WorkWithUsForm/>}/>
+        <Route path='work-with-us' element={<WorkWithUsForm/>}/>
+        <Route path='/recorded-videos' element={<RecordedVideo/>}/>
       </Route>
     </Routes>
   );
